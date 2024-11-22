@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb( 99, 56, 232);
+
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+.container h1 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+
+
+}
+.container .form{
+    margin-top: 30px;
+
+    
+}
+  
+.MAMA{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.MAMA label{
+    color: #333;
+
+}
+
+.MAMA input,.select-box{
+    position: relative;
+    height: 50px;
+    width: 90%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 6px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding:  0 15px;
+}
+
+.Age{
+    display: flex;
+    column-gap: 15px;
+    width: 40%;
+}
+
+.select-box{
+    display: flex;
+    column-gap: 15px;
+    width: 20%;
+}
+
+.gender-option,.gender{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.gender{
+    column-gap: 5px;
+}
+.gender input{
+    accent-color: rgb( 100, 100, 260);
+
+}
+.gender input, .gender label{
+    cursor: pointer;
+}
+
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070 ;
+    font-size: 1rem;
+
+}
+
+button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    background-color: rgb( 99, 56, 232) ;
+}
+
+button:hover{
+    background-color: rgb( 100, 100, 260) ;
+}
+.columns{
+    display: flex;
+    column-gap: 85px;
+}
+
+.columns .data{
+    font-size: 12px;
+    display: flex;
+    column-gap: 30px;
+    color: black;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    .form .Age .select-box {
+        flex-wrap: wrap;
+    }
+}
+
+
+
